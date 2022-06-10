@@ -1,18 +1,21 @@
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld11/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld11 />
+  <TodolistDemo />
 </template>
 
 <script>
-import HelloWorld11 from './components/HelloWorld.vue'
+import HelloWorld11 from "./components/HelloWorld.vue";
+import TodolistDemo from "./components/todoList.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld11
-  }
-}
+    HelloWorld11,
+    TodolistDemo,
+  },
+};
 </script>
 
 <style>
